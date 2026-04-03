@@ -28,7 +28,7 @@ export default function About() {
 
           <AnimatedSection variant="fadeRight" className={styles.imageCol}>
             <div className={styles.imageWrap}>
-              <img src="/images/about.jpg" alt={t('about.heading')} loading="lazy" />
+              <img src={`${import.meta.env.BASE_URL}images/about.jpg`} alt={t('about.heading')} loading="lazy" />
             </div>
           </AnimatedSection>
         </div>

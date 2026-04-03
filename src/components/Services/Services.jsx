@@ -3,9 +3,11 @@ import { Train, Truck } from 'lucide-react'
 import AnimatedSection from '../shared/AnimatedSection'
 import styles from './Services.module.css'
 
+const base = import.meta.env.BASE_URL
+
 const services = [
-  { key: 'rail', Icon: Train, image: '/images/services-rail.jpg' },
-  { key: 'truck', Icon: Truck, image: '/images/services-truck.jpg' },
+  { key: 'rail', Icon: Train, image: `${base}images/services-rail.jpg` },
+  { key: 'truck', Icon: Truck, image: `${base}images/services-truck.jpg` },
 ]
 
 export default function Services() {

@@ -8,7 +8,7 @@ export default function Hero() {
 
   return (
     <section className={styles.hero}>
-      <div className={styles.bgImage} />
+      <div className={styles.bgImage} style={{ backgroundImage: `url(${import.meta.env.BASE_URL}images/hero-bg.jpg)` }} />
 
       <div className={styles.overlay} />
 

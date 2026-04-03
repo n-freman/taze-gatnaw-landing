@@ -15,7 +15,7 @@ export default function Fleet() {
 
   return (
     <section id="fleet" className={styles.section}>
-      <div className={styles.bgImage} />
+      <div className={styles.bgImage} style={{ backgroundImage: `url(${import.meta.env.BASE_URL}images/fleet.jpg)` }} />
       <div className={styles.overlay} />
 
       <div className={styles.container}>

@@ -14,7 +14,7 @@ export default function Geography() {
 
   return (
     <section id="geography" className={styles.section}>
-      <div className={styles.bgImage} />
+      <div className={styles.bgImage} style={{ backgroundImage: `url(${import.meta.env.BASE_URL}images/geography.jpg)` }} />
       <div className={styles.overlay} />
 
       <div className={styles.container}>
