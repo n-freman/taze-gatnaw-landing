@@ -1,0 +1,144 @@
+.section {
+  background: var(--color-light);
+  padding: 100px 0;
+  position: relative;
+}
+
+.section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 80px,
+      rgba(82, 115, 246, 0.03) 80px,
+      rgba(82, 115, 246, 0.03) 81px
+    );
+  pointer-events: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  position: relative;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.textCol {
+  order: 1;
+}
+
+.imageCol {
+  order: 2;
+}
+
+.headingWrap {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.accentBar {
+  width: 4px;
+  height: 48px;
+  background: var(--color-primary);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.heading {
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: var(--color-text);
+}
+
+.text {
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.imageWrap {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 85% 100%, 0 100%);
+}
+
+.imageWrap img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+
+.stat {
+  text-align: center;
+  padding: 28px 16px;
+  background: var(--color-light-surface);
+  border-radius: 16px;
+  border: 1px solid rgba(82, 115, 246, 0.08);
+}
+
+.statValue {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+}
+
+.statLabel {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin-bottom: 48px;
+  }
+
+  .imageCol {
+    order: 1;
+  }
+
+  .textCol {
+    order: 2;
+  }
+
+  .imageWrap img {
+    height: 300px;
+  }
+
+  .stats {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .stat {
+    padding: 20px 12px;
+  }
+}

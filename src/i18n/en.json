@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "fleet": "Fleet",
+    "safety": "Safety",
+    "geography": "Geography",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Reliable Liquified Gas Transportation",
+    "subtitle": "By rail and road — across Turkmenistan",
+    "cta": "Get in Touch"
+  },
+  "services": {
+    "heading": "Our Services",
+    "description": "Two core directions for safe and efficient liquified gas transportation",
+    "rail": {
+      "title": "Railway Transport",
+      "description": "We deliver liquified gas in specialized tank cars to any destination across the country. The railway network is the most reliable method for transporting large volumes over long distances."
+    },
+    "truck": {
+      "title": "Truck Transport",
+      "description": "Delivery of liquified gas by specialized tanker trucks in the shortest possible time. Flexible logistics and door-to-door service."
+    }
+  },
+  "about": {
+    "heading": "About Us",
+    "text": "Täze Gatnaw is a leading logistics company in Turkmenistan. We specialize in the reliable and safe transportation of liquified gas by railway and road transport.",
+    "text2": "Our company is equipped with state-of-the-art technology and staffed by experienced professionals. Delivering the highest quality service is our primary goal.",
+    "stats": {
+      "experience": "Years of Experience",
+      "deliveries": "Successful Deliveries",
+      "clients": "Satisfied Clients",
+      "routes": "Active Routes"
+    }
+  },
+  "fleet": {
+    "heading": "Our Fleet",
+    "description": "A powerful material and technical base equipped with modern technology",
+    "stats": {
+      "tankers": "Tank Cars",
+      "trucks": "Tanker Trucks",
+      "km": "Route Kilometers",
+      "tons": "Annual Cargo Volume (tons)"
+    }
+  },
+  "safety": {
+    "heading": "Safety & Standards",
+    "description": "Safety is the foundation of our operations",
+    "items": {
+      "monitoring": {
+        "title": "24/7 Monitoring",
+        "description": "All vehicles are under continuous surveillance and control"
+      },
+      "certified": {
+        "title": "International Standards",
+        "description": "We operate in compliance with ISO and international safety standards"
+      },
+      "training": {
+        "title": "Professional Training",
+        "description": "Our staff regularly undergo advanced qualification courses"
+      },
+      "emergency": {
+        "title": "Emergency Response",
+        "description": "Our rapid response team is ready for any situation"
+      }
+    }
+  },
+  "geography": {
+    "heading": "Service Geography",
+    "description": "An extensive route network connecting major cities and industrial centers of Turkmenistan",
+    "cities": ["Ashgabat", "Turkmenbashi", "Mary", "Turkmenabat", "Dashoguz", "Balkanabat"]
+  },
+  "contact": {
+    "heading": "Get in Touch",
+    "description": "Contact us — we'll find the optimal solution for you",
+    "address": "15 Oguzhan Street, Ashgabat, Turkmenistan",
+    "phone": "+993 12 XX XX XX",
+    "email": "info@tazegatnaw.tm",
+    "hours": "Mon — Fri: 09:00 — 18:00"
+  },
+  "footer": {
+    "copyright": "© 2026 Täze Gatnaw. All rights reserved.",
+    "tagline": "Reliable liquified gas transportation"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "services": "Hyzmatlar",
+    "about": "Biz barada",
+    "fleet": "Tehniki park",
+    "safety": "Howpsuzlyk",
+    "geography": "Geografiýa",
+    "contact": "Habarlaşmak"
+  },
+  "hero": {
+    "title": "Suwuklandyrylan gazyň ygtybarly daşalyşy",
+    "subtitle": "Demir ýol we awtoulag arkaly — Türkmenistanyň çar tarapyna",
+    "cta": "Habarlaşyň"
+  },
+  "services": {
+    "heading": "Hyzmatlarymyz",
+    "description": "Suwuklandyrylan gazy howpsuz we netijeli daşamagyň iki esasy ugry",
+    "rail": {
+      "title": "Demir ýol daşamasy",
+      "description": "Ýörite sisternaly wagonlar bilen suwuklandyrylan gazy ýurduň islendik künjegine eltip berýäris. Demir ýol ulgamy uly möçberdäki ýükleri uzak aralyklara daşamak üçin iň ygtybarly usuldyr."
+    },
+    "truck": {
+      "title": "Awtoulag daşamasy",
+      "description": "Ýörite enjamlaşdyrylan awtosisternalar arkaly suwuklandyrylan gazy gysga möhletde barjak ýerine eltýäris. Çeýe logistika we gapyňyza çenli eltip bermek hyzmaty."
+    }
+  },
+  "about": {
+    "heading": "Biz barada",
+    "text": "«Täze Gatnaw» — Türkmenistanyň öňdebaryjy logistika kompaniýasy. Biz suwuklandyrylan gazy demir ýol we awtoulag ulaglary arkaly ygtybarly we howpsuz daşamak boýunça hyzmat edýäris.",
+    "text2": "Kompaniýamyz iň häzirki zaman tehnikasy we tejribeli hünärmenler bilen enjamlaşdyrylandyr. Müşderilerimize iň ýokary hilli hyzmat bermek biziň esasy maksadymyzdyr.",
+    "stats": {
+      "experience": "Tejribe ýyllary",
+      "deliveries": "Üstünlikli gatnawlar",
+      "clients": "Kanagatly müşderiler",
+      "routes": "Ugurlar"
+    }
+  },
+  "fleet": {
+    "heading": "Tehniki parkymyz",
+    "description": "Häzirki zaman tehnikasy bilen üpjün edilen güýçli maddy-tehniki binýadymyz",
+    "stats": {
+      "tankers": "Sisternaly wagon",
+      "trucks": "Awtosisterna",
+      "km": "Ugur kilometri",
+      "tons": "Ýyllyk ýük göwrümi (tonna)"
+    }
+  },
+  "safety": {
+    "heading": "Howpsuzlyk we standartlar",
+    "description": "Howpsuzlyk biziň işimiziň düýp esasydyr",
+    "items": {
+      "monitoring": {
+        "title": "24/7 Gözegçilik",
+        "description": "Ähli ulag serişdelerimiz üznüksiz gözegçilik astynda saklanýar"
+      },
+      "certified": {
+        "title": "Halkara standartlar",
+        "description": "ISO we halkara howpsuzlyk standartlaryna laýyklykda iş alyp barýarys"
+      },
+      "training": {
+        "title": "Hünärmen taýýarlyk",
+        "description": "Işgärlerimiz yzygiderli kämilleşdiriş okuwlaryndan geçýärler"
+      },
+      "emergency": {
+        "title": "Adatdan daşary ýagdaý",
+        "description": "Islendik ýagdaýa taýýar bolan dessin çäre görme toparymyz bar"
+      }
+    }
+  },
+  "geography": {
+    "heading": "Hyzmat geografiýasy",
+    "description": "Türkmenistanyň esasy şäherlerini we senagat merkezlerini birleşdirýän giň ugur ulgamy",
+    "cities": ["Aşgabat", "Türkmenbaşy", "Mary", "Türkmenabat", "Daşoguz", "Balkanabat"]
+  },
+  "contact": {
+    "heading": "Habarlaşyň",
+    "description": "Biziň bilen habarlaşyň — siziň üçin iň amatly çözgüdi taparys",
+    "address": "Aşgabat ş., Oguzhan köçesi, 15-nji jaý",
+    "phone": "+993 12 XX XX XX",
+    "email": "info@tazegatnaw.tm",
+    "hours": "Duş — Anna: 09:00 — 18:00"
+  },
+  "footer": {
+    "copyright": "© 2026 Täze Gatnaw. Ähli hukuklar goragly.",
+    "tagline": "Suwuklandyrylan gazy ygtybarly daşaýarys"
+  }
+}

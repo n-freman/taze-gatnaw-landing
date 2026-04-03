@@ -1,0 +1,97 @@
+.section {
+  position: relative;
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.bgImage {
+  position: absolute;
+  inset: 0;
+  background: url('/images/fleet.jpg') center/cover no-repeat;
+  opacity: 0.15;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: var(--color-dark);
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.heading {
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: #fff;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.description {
+  text-align: center;
+  color: var(--color-dark-text-muted);
+  max-width: 600px;
+  margin: 0 auto 80px;
+  font-size: 1.05rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+
+.stat {
+  text-align: center;
+  padding: 40px 16px;
+}
+
+.statValue {
+  font-family: var(--font-heading);
+  font-size: clamp(3rem, 5vw, 5rem);
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 2px var(--color-primary);
+  line-height: 1;
+  margin-bottom: 16px;
+  animation: strokePulse 3s ease-in-out infinite;
+}
+
+@keyframes strokePulse {
+  0%, 100% { -webkit-text-stroke-color: var(--color-primary); filter: drop-shadow(0 0 0 transparent); }
+  50% { -webkit-text-stroke-color: var(--color-primary-light); filter: drop-shadow(0 0 8px rgba(82, 115, 246, 0.3)); }
+}
+
+.statLabel {
+  font-size: 0.95rem;
+  color: var(--color-dark-text-muted);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+
+  .description {
+    margin-bottom: 48px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .stat {
+    padding: 24px 12px;
+  }
+
+  .statValue {
+    -webkit-text-stroke: 1.5px var(--color-primary);
+  }
+}

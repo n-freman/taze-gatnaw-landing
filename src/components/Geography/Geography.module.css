@@ -1,0 +1,121 @@
+.section {
+  position: relative;
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.bgImage {
+  position: absolute;
+  inset: 0;
+  background: url('/images/geography.jpg') center/cover no-repeat;
+  opacity: 0.12;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: var(--color-dark);
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.heading {
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: #fff;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.description {
+  text-align: center;
+  color: var(--color-dark-text-muted);
+  max-width: 600px;
+  margin: 0 auto 48px;
+  font-size: 1.05rem;
+}
+
+.cities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 56px;
+}
+
+.cityChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: var(--color-dark-surface);
+  border: 1px solid var(--color-dark-border);
+  border-radius: 100px;
+  color: var(--color-dark-text);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.cityChip svg {
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
+.routeVisual {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.routeSvg {
+  width: 100%;
+  height: auto;
+}
+
+.routePath {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+}
+
+.draw {
+  animation: drawRoute 2s ease forwards;
+}
+
+.dot {
+  opacity: 0;
+  transform-origin: center;
+}
+
+.dotVisible {
+  animation: dotAppear 0.4s ease forwards;
+}
+
+@keyframes drawRoute {
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes dotAppear {
+  0% { opacity: 0; r: 0; }
+  60% { opacity: 1; r: 7; }
+  100% { opacity: 0.7; r: 5; }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+
+  .cities {
+    gap: 8px;
+    margin-bottom: 40px;
+  }
+
+  .cityChip {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+  }
+}

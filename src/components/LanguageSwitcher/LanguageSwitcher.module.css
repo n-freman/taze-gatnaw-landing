@@ -1,0 +1,27 @@
+.switcher {
+  display: flex;
+  gap: 2px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  color: var(--color-dark-text-muted);
+  letter-spacing: 0.05em;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  color: var(--color-dark-text);
+}
+
+.active {
+  background: var(--color-primary);
+  color: #fff;
+}
