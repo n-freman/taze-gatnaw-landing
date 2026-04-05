@@ -31,7 +31,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}>
+    <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ''} ${menuOpen ? styles.menuActive : ''}`}>
       <div className={styles.inner}>
         <a href="#" className={styles.logo} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           <img src={logoLight} alt="Täze Gatnaw" height="40" />
@@ -66,13 +66,13 @@ export default function Navbar() {
             key={id}
             href={`#${id}`}
             className={styles.mobileLink}
-            style={{ transitionDelay: menuOpen ? `${i * 0.05}s` : '0s' }}
+            style={{ animationDelay: `${i * 0.05}s` }}
             onClick={(e) => { e.preventDefault(); handleNavClick(id) }}
           >
             {t(`nav.${id}`)}
           </a>
         ))}
-        <div className={styles.mobileLang}>
+        <div className={styles.mobileLang} style={{ animationDelay: `${sections.length * 0.05}s` }}>
           <LanguageSwitcher />
         </div>
       </div>

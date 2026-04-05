@@ -123,6 +123,10 @@
 }
 
 @media (max-width: 768px) {
+  .bgImage {
+    background-attachment: scroll;
+  }
+
   .content {
     padding: 0 20px;
   }
